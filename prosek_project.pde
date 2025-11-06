@@ -1,12 +1,12 @@
 void setup() {
   size(1400, 800);
   background(200);
-  butterflys(500);
+  butterflys(750);
 }
 
 void butterflys(int amt) {
   for (int i = 0; i <= amt; i++) {
-    butterfly(random(30, 1370), random(30, 750));
+    butterfly(random(20, 1370), random(20, 750));
   }
 }
 
